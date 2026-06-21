@@ -1,0 +1,56 @@
+<svg width="100%" viewBox="0 0 620 330" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>ドット（LHDP/RHDP）駆動 詳細図</title>
+<desc>ニキシー管のドットカソードを高耐圧NPN（MPSA42）でオープンコレクタ駆動するハイサイドではなくローサイド（カソード引き）回路。直列抵抗R_dotでドット電流を制限。グループごとL/R計4本（LA/RA/LB/RB）。</desc>
+<defs>
+<marker id="ar" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#1a1a1a"/></marker>
+</defs>
+<style>
+text{font-family:sans-serif;fill:#1a1a1a}
+.t{font-size:14px}.ts{font-size:12px}
+.w{fill:none;stroke:#1a1a1a;stroke-width:1.4}
+.body{fill:none;stroke:#1a1a1a;stroke-width:1.4}
+.dot{fill:#1a1a1a}
+.tri{fill:#1a1a1a}
+</style>
+
+<text class="ts" x="60" y="28" fill="#dc2626">ニキシー桁のドットカソード（LHDP=pin2 / RHDP=pin13）から</text>
+<text class="ts" x="60" y="44">※ アノードはその桁の多重化スロットで +180V が供給される</text>
+
+<circle class="dot" cx="220" cy="64" r="2.5"/>
+<path class="w" d="M220,64 V92"/>
+<rect class="body" x="212" y="92" width="16" height="40"/>
+<text class="ts" x="236" y="110">R_dot</text>
+<text class="ts" x="236" y="124">47k（調整）</text>
+<path class="w" d="M220,132 V172"/>
+
+<circle class="body" cx="220" cy="192" r="20"/>
+<path class="w" d="M220,172 V172"/>
+<path class="w" d="M220,212 V292"/>
+<polygon class="tri" points="220,218 214,209 226,209"/>
+<path class="w" d="M200,192 H168"/>
+<text class="t" x="244" y="188">MPSA42</text>
+<text class="ts" x="244" y="204">(NPN, 300V)</text>
+
+<rect class="body" x="128" y="184" width="40" height="16"/>
+<path class="w" d="M128,192 H92"/>
+<circle class="dot" cx="90" cy="192" r="3"/>
+<text class="ts" x="128" y="178">R_b 10k</text>
+<text class="ts" x="30" y="188">制御</text>
+<text class="ts" x="18" y="204">(GPIO/595)</text>
+
+<path class="w" d="M150,192 V230"/>
+<rect class="body" x="142" y="230" width="16" height="36"/>
+<path class="w" d="M150,266 V292"/>
+<circle class="dot" cx="150" cy="192" r="2.5"/>
+<text class="ts" x="166" y="252">R_pd</text>
+<text class="ts" x="166" y="266">100k</text>
+
+<path class="w" d="M120,292 H360"/>
+<text class="ts" x="120" y="310">GND</text>
+
+<text class="t" x="380" y="180">この回路 × 4</text>
+<text class="ts" x="380" y="200">LA / RA（グループA 左右）</text>
+<text class="ts" x="380" y="216">LB / RB（グループB 左右）</text>
+<text class="ts" x="380" y="240">スロットに同期して制御 →</text>
+<text class="ts" x="380" y="256">全16ドットを時分割で個別点灯</text>
+</svg>
