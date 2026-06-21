@@ -1,0 +1,62 @@
+<svg width="100%" viewBox="0 0 660 340" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>アノード側 高圧ハイサイドスイッチ（2石）詳細図</title>
+<desc>3.3V制御信号でMPSA42(NPN)を駆動し、MPSA92(PNP)のベースを引き下げて+180Vを桁アノードへ供給するハイサイドスイッチ。アノードバス1本につき1組、計4組。</desc>
+<defs>
+<marker id="ar" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#1a1a1a"/></marker>
+</defs>
+<style>
+text{font-family:sans-serif;fill:#1a1a1a}
+.t{font-size:14px}.ts{font-size:12px}
+.w{fill:none;stroke:#1a1a1a;stroke-width:1.4}
+.hv{fill:none;stroke:#dc2626;stroke-width:1.6}
+.body{fill:none;stroke:#1a1a1a;stroke-width:1.4}
+.dot{fill:#1a1a1a}
+.tri{fill:#1a1a1a}
+</style>
+
+<path class="hv" d="M120,44 H540"/>
+<text class="ts" x="120" y="36" fill="#dc2626">+180V</text>
+<path class="w" d="M120,300 H540"/>
+<text class="ts" x="120" y="318">GND</text>
+
+<path class="w" d="M240,44 V66"/>
+<rect class="body" x="232" y="66" width="16" height="40"/>
+<path class="w" d="M240,106 V110"/>
+<text class="ts" x="196" y="88">R1</text>
+<text class="ts" x="194" y="102">100k</text>
+
+<path class="w" d="M240,110 H320"/>
+<circle class="dot" cx="240" cy="110" r="2.5"/>
+
+<circle class="body" cx="340" cy="110" r="20"/>
+<path class="w" d="M340,90 V44"/>
+<polygon class="tri" points="340,88 334,79 346,79"/>
+<path class="w" d="M340,130 V176"/>
+<path class="w" d="M320,110 H322"/>
+<text class="t" x="368" y="106">Q1 MPSA92</text>
+<text class="ts" x="368" y="122">(PNP)</text>
+
+<circle class="body" cx="240" cy="210" r="20"/>
+<path class="w" d="M240,190 V110"/>
+<path class="w" d="M240,230 V300"/>
+<polygon class="tri" points="240,236 234,227 246,227"/>
+<path class="w" d="M220,210 H190"/>
+<text class="t" x="262" y="206">Q2 MPSA42</text>
+<text class="ts" x="262" y="222">(NPN)</text>
+
+<rect class="body" x="150" y="202" width="40" height="16"/>
+<path class="w" d="M150,210 H110"/>
+<circle class="dot" cx="110" cy="210" r="3"/>
+<text class="ts" x="150" y="196">R2 10k</text>
+<text class="ts" x="44" y="206">制御入力</text>
+<text class="ts" x="40" y="222">(GPIO/74139)</text>
+
+<rect class="body" x="332" y="176" width="16" height="40"/>
+<text class="ts" x="356" y="200">Ra 12k</text>
+<path class="w" d="M340,216 V250"/>
+<path class="w" d="M340,250 H404" marker-end="url(#ar)"/>
+<text class="ts" x="410" y="246">ニキシー桁</text>
+<text class="ts" x="410" y="262">アノードへ</text>
+
+<text class="ts" x="360" y="300">この回路 ×4（アノードバス1本につき1組）</text>
+</svg>
