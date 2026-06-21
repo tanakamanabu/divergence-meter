@@ -24,13 +24,13 @@ text{font-family:sans-serif;fill:#1a1a1a}
 <path class="b" d="M43,193 H67"/>
 <path class="w" d="M55,193 V350"/>
 <circle class="dot" cx="55" cy="70" r="2.5"/>
-<text class="ts" x="62" y="150">C_in 10µF</text>
+<text class="ts" x="62" y="150">C_in 22µF</text>
 
 <path class="b" d="M100,70 V240"/>
 <circle class="dot" cx="100" cy="70" r="2.5"/>
 
 <path class="body" d="M110,70 q11,-13 22,0 q11,-13 22,0 q11,-13 22,0 q11,-13 22,0"/>
-<text class="ts" x="118" y="52">L 220µH</text>
+<text class="ts" x="118" y="52">L 47µH</text>
 
 <path class="w" d="M198,70 H350"/>
 <text class="ts" x="250" y="60">SW</text>
@@ -48,7 +48,7 @@ text{font-family:sans-serif;fill:#1a1a1a}
 <rect class="body" x="292" y="215" width="16" height="38"/>
 <path class="w" d="M300,253 V350"/>
 <text class="ts" x="316" y="234">Rsense</text>
-<text class="ts" x="316" y="248">(CS)</text>
+<text class="ts" x="316" y="248">0.1Ω</text>
 
 <polygon class="tri" points="350,62 350,78 372,70"/>
 <line class="w" x1="374" y1="60" x2="374" y2="80"/>
@@ -81,8 +81,8 @@ text{font-family:sans-serif;fill:#1a1a1a}
 <circle class="dot" cx="600" cy="162" r="2.5"/>
 <rect class="body" x="592" y="175" width="16" height="50"/>
 <path class="w" d="M600,225 V350"/>
-<text class="ts" x="548" y="128">R1 2M</text>
-<text class="ts" x="548" y="205">R2 16k</text>
+<text class="ts" x="548" y="128">R1 1.8M</text>
+<text class="ts" x="548" y="205">R2 15k</text>
 <text class="ts" x="612" y="166">FB</text>
 
 <path class="c" d="M600,162 H620 V362 H120 V335"/>
