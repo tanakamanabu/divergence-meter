@@ -8,7 +8,7 @@
 
 | 部品 | 用途 | 入手先 | 備考 |
 |---|---|---|---|
-| **M5Stamp**（Pico / C3 / S3） | マイコン | M5Stack 公式 docs（寸法図・PCB資料）／ SnapEDA ／ EasyEDA | キャスタネーション or 2.54mm ヘッダ実装 |
+| **XIAO ESP32-C3** | マイコン | Seeed 公式（KiCad ライブラリ提供あり）／ SnapEDA ／ EasyEDA | 2.54mm ヘッダ実装。U.FL 外部アンテナ付き |
 | **74141 / K155ID1** | カソードドライバ | KiCad 標準（DIP-16）／ SnapEDA | ピン配置は要確認 |
 | **74HCT595** | シフトレジスタ | KiCad 標準（DIP/SOIC-16） | |
 | **MAX1771** | 昇圧コントローラ | SnapEDA（SOIC-8） | |

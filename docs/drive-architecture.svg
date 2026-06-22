@@ -1,6 +1,6 @@
 <svg width="100%" viewBox="0 0 680 380" role="img" xmlns="http://www.w3.org/2000/svg">
 <title>点灯ドライブ アーキテクチャ図（74HCT595×2 制御）</title>
-<desc>M5Stampが3本（Data/Clock/Latch）で74HCT595を2個駆動し、16bitで74141×2（数字）・アノードHVスイッチ×4（桁）・ドットドライバ×4を制御して8桁のニキシー管を1/4多重点灯する構成。74139は不要。</desc>
+<desc>XIAO ESP32-C3が3本（Data/Clock/Latch）で74HCT595を2個駆動し、16bitで74141×2（数字）・アノードHVスイッチ×4（桁）・ドットドライバ×4を制御して8桁のニキシー管を1/4多重点灯する構成。74139は不要。</desc>
 <defs>
 <marker id="ar" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#1a1a1a"/></marker>
 <marker id="arr" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#dc2626"/></marker>
@@ -16,8 +16,8 @@ text{font-family:sans-serif;fill:#1a1a1a}
 </style>
 
 <rect class="blk" x="16" y="158" width="82" height="56" rx="6"/>
-<text class="t" x="57" y="182" text-anchor="middle">M5Stamp</text>
-<text class="ts" x="57" y="200" text-anchor="middle">ESP32</text>
+<text class="t" x="57" y="182" text-anchor="middle">XIAO</text>
+<text class="ts" x="57" y="200" text-anchor="middle">ESP32-C3</text>
 
 <path class="w" d="M98,186 H150" marker-end="url(#ar)"/>
 <text class="ts" x="104" y="180">3本</text>
@@ -74,5 +74,5 @@ text{font-family:sans-serif;fill:#1a1a1a}
 <path class="w" d="M445,310 H488 V300 H505" marker-end="url(#ar)"/>
 <text class="ts" x="450" y="328">ドットバス×4</text>
 
-<text class="ts" x="16" y="366">M5Stamp 3本 → 74HCT595×2 → 全ドライバ。アノード4bit・ドット4bitも595から直接出力（74139は不要）。OEにPWMで輝度調整。</text>
+<text class="ts" x="16" y="366">XIAO ESP32-C3 3本 → 74HCT595×2 → 全ドライバ。アノード4bit・ドット4bitも595から直接出力（74139は不要）。OEにPWMで輝度調整。</text>
 </svg>
