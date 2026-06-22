@@ -5,3 +5,16 @@ Thumbs.db
 # Build artifacts
 *.tmp
 *.bak
+
+# Editor local history (VSCode Local History 拡張など)
+.history/
+
+# KiCad
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+fp-info-cache
+*-autosave*
+~*.lck
+\#auto_saved_files\#
