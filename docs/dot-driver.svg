@@ -38,12 +38,13 @@ text{font-family:sans-serif;fill:#1a1a1a}
 <text class="ts" x="30" y="188">制御</text>
 <text class="ts" x="18" y="204">(GPIO/595)</text>
 
-<path class="w" d="M150,192 V230"/>
-<rect class="body" x="142" y="230" width="16" height="36"/>
-<path class="w" d="M150,266 V292"/>
-<circle class="dot" cx="150" cy="192" r="2.5"/>
-<text class="ts" x="166" y="252">R_pd</text>
-<text class="ts" x="166" y="266">100k</text>
+<path class="w" d="M184,192 V230"/>
+<rect class="body" x="176" y="230" width="16" height="36"/>
+<path class="w" d="M184,266 V292"/>
+<circle class="dot" cx="184" cy="192" r="2.5"/>
+<circle class="dot" cx="184" cy="292" r="2.5"/>
+<text class="ts" x="198" y="252">R_pd</text>
+<text class="ts" x="198" y="266">100k</text>
 
 <path class="w" d="M120,292 H360"/>
 <text class="ts" x="120" y="310">GND</text>
