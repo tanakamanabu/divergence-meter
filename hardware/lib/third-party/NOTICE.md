@@ -1,6 +1,6 @@
 # third-party ライブラリについて
 
-このフォルダには、外部（M5Stack 公式 / SnapEDA / メーカー等）から入手したシンボル・
+このフォルダには、外部から入手したシンボル・
 フットプリントを置く。**プロジェクト本体の MIT ライセンスは適用されない** ——
 各ファイルは入手元のライセンスを維持する。
 
@@ -16,4 +16,7 @@
 
 | 部品 | 入手元 URL | ライセンス | 入手日 | ファイル |
 |---|---|---|---|---|
-| （まだ無し） | | | | |
+| XIAO ESP32-C3 シンボル/フットプリント | https://github.com/Seeed-Studio/OPL_Kicad_Library （Seeed Studio XIAO Series Library） | CC-BY-SA-4.0 | 2026-06-22 | `Seeed_XIAO/`（`Seeed_Studio_XIAO_Series.kicad_sym`, `Seeed_Studio_XIAO_Series.pretty/`, `LICENSE`） |
+
+> 帰属: © Seeed Studio, "OPL_Kicad_Library"（CC-BY-SA-4.0）。ライセンス全文は `Seeed_XIAO/LICENSE`。
+> CC-BY-SA のため、これらのファイルを**改変して再配布する場合は同一ライセンス（CC-BY-SA-4.0）**で。
