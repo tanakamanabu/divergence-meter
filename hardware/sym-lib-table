@@ -2,4 +2,7 @@
 	(version 7)
 	(lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/lib/custom.kicad_sym")(options "")(descr "プロジェクト自作シンボル（IN-14 等）"))
 	(lib (name "Seeed_Studio_XIAO_Series")(type "KiCad")(uri "${KIPRJMOD}/lib/third-party/Seeed_XIAO/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr "Seeed XIAO シリーズ（CC-BY-SA-4.0, third-party）"))
+	(lib (name "Nixie_judge2005_nixies-us")(type "KiCad")(uri "${KIPRJMOD}/lib/third-party/Nixie_judge2005/nixies-us.kicad_sym")(options "")(descr "ニキシー管 IN-シリーズ（judge2005, ライセンス未記載・非同梱）"))
+	(lib (name "Nixie_judge2005_mynixies")(type "KiCad")(uri "${KIPRJMOD}/lib/third-party/Nixie_judge2005/mynixies.kicad_sym")(options "")(descr "ニキシー/放電管 各種（judge2005, ライセンス未記載・非同梱）"))
+	(lib (name "Nixie_judge2005_nixiemisc")(type "KiCad")(uri "${KIPRJMOD}/lib/third-party/Nixie_judge2005/nixiemisc.kicad_sym")(options "")(descr "ニキシー周辺部品（judge2005, ライセンス未記載・非同梱）"))
 )

@@ -20,3 +20,17 @@
 
 > 帰属: © Seeed Studio, "OPL_Kicad_Library"（CC-BY-SA-4.0）。ライセンス全文は `Seeed_XIAO/LICENSE`。
 > CC-BY-SA のため、これらのファイルを**改変して再配布する場合は同一ライセンス（CC-BY-SA-4.0）**で。
+
+## 同梱物の記録（つづき）
+
+| 部品 | 入手元 URL | ライセンス | 入手日 | ファイル |
+|---|---|---|---|---|
+| ニキシー管 KiCAD ライブラリ（IN-シリーズ等） | https://github.com/judge2005/Eagle-and-KiCAD-Nixie-Libs | **明示なし（LICENSE ファイル無し）** | 2026-06-24 | `Nixie_judge2005/`（`nixies-us` / `mynixies` / `nixiemisc` の `.kicad_sym` と `.pretty/`、`UPSTREAM_README.md`） |
+
+> 帰属: © judge2005, "Eagle-and-KiCAD-Nixie-Libs"。元データは Eagle/レガシー KiCad 形式で、
+> KiCad 10 の `kicad-cli sym/fp upgrade` で現行形式に変換して同梱。
+>
+> **ライセンスについての注意**: 元リポジトリにライセンス表記が無く、再配布可否は厳密には不明。
+> ただしニキシー時計コミュニティで広く再利用され、フォーク／PR でもライセンス上の問題提起が
+> 見当たらないため、メンテナ判断で同梱している。元作者から要請があれば削除して
+> [`LIBRARIES.md`](../../../LIBRARIES.md) のローカル取得方式に切り替える。

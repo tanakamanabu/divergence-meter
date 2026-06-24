@@ -1,0 +1,67 @@
+(footprint "nixiemisc-THT-150-35"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "c6a142b8-f75f-4618-b8e7-49c6dd087eda")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ff2f43cf-5312-4452-9273-912448d44fd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adbb4123-bb38-4d08-a740-117b8e8c97e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c878b0b-803f-4d42-baea-22d102389d38")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.778 1.778)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c60e190-3ae0-41f9-9628-366c6ad54408")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 1.778 1.778)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e3686f5-a705-4ed5-97ee-1324a44a8cfa")
+	)
+	(embedded_fonts no)
+)

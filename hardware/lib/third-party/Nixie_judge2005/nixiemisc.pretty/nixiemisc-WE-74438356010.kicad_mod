@@ -1,0 +1,105 @@
+(footprint "nixiemisc-WE-74438356010"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "904394de-cc77-4158-b152-6d9d0a661f7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "923778fa-b75b-4483-b5be-b670fb5ed2f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5574c5d-a976-43cc-80d2-7431396a1c1b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "698e0292-e9ee-4aa5-89fa-90877b7afa4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.09804 -2.09804)
+		(end -2.09804 2.09804)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf08c7e6-3c22-40f8-876a-cefc65ce097c")
+	)
+	(fp_line
+		(start -2.09804 -2.09804)
+		(end 2.09804 -2.09804)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b426790-0c75-4e07-a87d-ff7971b0442c")
+	)
+	(fp_line
+		(start -2.09804 2.09804)
+		(end 2.09804 2.09804)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "911f3626-83b3-417d-9db7-5f2860c8308e")
+	)
+	(fp_line
+		(start 2.09804 -2.09804)
+		(end 2.09804 2.09804)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18d756da-54a6-4b5b-b8d6-b04bf9064e94")
+	)
+	(pad "1" smd rect
+		(at -1.22428 0)
+		(size 0.89916 3.69824)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "8fb1d869-6334-4c95-aca9-96cf0f4b88e6")
+	)
+	(pad "2" smd rect
+		(at 1.22428 0)
+		(size 0.89916 3.69824)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "4e42ea81-0ae1-4454-a6e8-db3ca4de2b4d")
+	)
+	(embedded_fonts no)
+)
