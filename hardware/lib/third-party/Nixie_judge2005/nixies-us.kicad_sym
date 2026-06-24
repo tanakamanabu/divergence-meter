@@ -37,7 +37,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-1"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-1"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -378,7 +378,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-12"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-12"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -719,7 +719,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-12-DSUB"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-12-DSUB"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1060,7 +1060,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-12-DSUB"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-12-DSUB"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1419,7 +1419,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-12-DSUB-NOHOLE"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-12-DSUB-NOHOLE"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1778,7 +1778,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-12"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-12"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2135,7 +2135,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-13"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-13"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2528,7 +2528,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-14"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-14"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2905,7 +2905,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-12"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-12"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3326,7 +3326,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-12"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-12"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3695,7 +3695,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-16"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-16"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4072,7 +4072,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-17"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-17"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4413,7 +4413,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-18"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-18"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4772,7 +4772,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-18-DSUB"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-18-DSUB"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5131,7 +5131,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-18-8331"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-18-8331"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5490,7 +5490,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-19"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-19"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5859,7 +5859,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-19"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-19"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6228,7 +6228,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-19"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-19"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6597,7 +6597,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-2-DSUB"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-2-DSUB"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6936,7 +6936,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-3"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-3"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7243,7 +7243,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-4-DSUB"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-4-DSUB"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7584,7 +7584,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-4-DSUB-SPARSE"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-4-DSUB-SPARSE"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7923,7 +7923,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-6"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-6"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8230,7 +8230,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-18"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-18"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8651,7 +8651,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-8"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-8"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8992,7 +8992,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-8-2"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-8-2"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9351,7 +9351,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-8-DSUB"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-8-DSUB"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9690,7 +9690,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-9"
+		(property "Footprint" "Nixie_judge2005_nixies-us:nixies-us-IN-9"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
