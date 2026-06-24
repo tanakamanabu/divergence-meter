@@ -33,7 +33,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_4PINDOUBLE"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-4PINDOUBLE"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -320,7 +320,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_4PINDOUBLEMIL"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-4PINDOUBLEMIL"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -607,7 +607,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_4PINDOUBLEBIG"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-4PINDOUBLEBIG"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -894,7 +894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nixiemisc_DIP16"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-DIP16"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1321,7 +1321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nixiemisc_SOIC16-5.3MM"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SOIC16-5.3MM"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1752,7 +1752,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_U.FL"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-U.FL"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1931,7 +1931,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_SOT25"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SOT25"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2160,7 +2160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nixiemisc_QFN20"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-QFN20"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2569,7 +2569,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_UQFN-10"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-UQFN-10"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2892,7 +2892,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_TO236"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-TO236"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3091,7 +3091,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_TSSOP-16"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-TSSOP-16"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3500,7 +3500,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_SOIC16-5.3MM"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SOIC16-5.3MM"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3909,7 +3909,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_DIP16"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-DIP16"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,7 +4318,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_QFN28G_0.5-5X5MM"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-QFN28G_0.5-5X5MM"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4979,7 +4979,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_QFN24-4X4"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-QFN24-4X4"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5568,7 +5568,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_CRYSTAL2.0X1.6"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-CRYSTAL2.0X1.6"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5935,7 +5935,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_2-SMD"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-2-SMD"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6114,7 +6114,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_DO-214AC"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-DO-214AC"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6353,7 +6353,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_DO-219AB"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-DO-219AB"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6552,7 +6552,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_DA2032-AL"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-DA2032-AL"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7033,7 +7033,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_DO-219AB"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-DO-219AB"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7212,7 +7212,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_SOT23"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SOT23"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7613,7 +7613,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_TO92"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-TO92"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7854,7 +7854,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_ESP-01"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-ESP-01"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8137,7 +8137,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_PQFN50P700X700X104-49N"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-PQFN50P700X700X104-49N"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9089,7 +9089,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_QFN-48"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-QFN-48"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10041,7 +10041,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_QFN48_7X7"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-QFN48_7X7"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10993,7 +10993,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_QFN32"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-QFN32"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11726,7 +11726,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_QFN-32"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-QFN-32"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12459,7 +12459,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_QFN32"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-QFN32"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13193,7 +13193,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_ESPRESSIF_SYSTEMS_ESP32-PICO-D4_0"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-ESPRESSIF_SYSTEMS_ESP32-PICO-D4_0"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14870,7 +14870,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_QFN-44-7X7"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-QFN-44-7X7"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15819,7 +15819,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_PLCC44"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-PLCC44"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16750,7 +16750,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_S44"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-S44"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17685,7 +17685,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_LED_SQUARE_3MM"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-LED_SQUARE_3MM"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17945,7 +17945,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_LGA-16-3X3"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-LGA-16-3X3"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18336,7 +18336,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_MSOP08"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-MSOP08"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18643,7 +18643,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_SOIC8"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SOIC8"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18950,7 +18950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nixiemisc_S8E"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-S8E"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19251,7 +19251,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_SOT23-5"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SOT23-5"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19480,7 +19480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nixiemisc_MAX98357A"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-MAX98357A"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19781,7 +19781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nixiemisc_QFN16"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-QFN16"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20158,7 +20158,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_QFN28-ML_6X6MM"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-QFN28-ML_6X6MM"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20765,7 +20765,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_SO28W"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SO28W"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21372,7 +21372,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_DIL28-3"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-DIL28-3"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21979,7 +21979,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_DIL28-3-ROUND"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-DIL28-3-ROUND"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22586,7 +22586,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_SSOP28"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SSOP28"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23193,7 +23193,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_SOT23-5"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SOT23-5"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23422,7 +23422,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_PAD"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-PAD"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23540,7 +23540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nixiemisc_MICROSD"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-MICROSD"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23976,7 +23976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nixiemisc_B3U-1100P_M_"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-B3U-1100P_M_"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24219,7 +24219,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_SOT23-BEC"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SOT23-BEC"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24511,7 +24511,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "nixiemisc_SO08"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SO08"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25005,7 +25005,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "nixiemisc_POWERSO8"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-POWERSO8"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25515,7 +25515,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_MS13ASW30"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-MS13ASW30"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25772,7 +25772,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_SO-08"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SO-08"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26260,7 +26260,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_NA5880-AE"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-NA5880-AE"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26569,7 +26569,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_SOT25"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SOT25"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27000,7 +27000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nixiemisc_SOT143"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SOT143"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27645,7 +27645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nixiemisc_SOT143R_INFINEON"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SOT143R_INFINEON"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28286,7 +28286,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_2X06"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-2X06"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28647,7 +28647,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_DRC0010G"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-DRC0010G"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28984,7 +28984,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_VQFN-14"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-VQFN-14"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29394,7 +29394,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_UMT6"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-UMT6"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30072,7 +30072,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_USB-MINIB-THM-MOLEX-PWRONLY"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-USB-MINIB-THM-MOLEX-PWRONLY"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30296,7 +30296,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_WE-74438356010"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-WE-74438356010"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30518,7 +30518,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_WE-750313457"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-WE-750313457"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30824,7 +30824,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_WE-750315839"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-WE-750315839"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31090,7 +31090,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_WE-FLEX_EFD15"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-WE-FLEX_EFD15"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31835,7 +31835,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_WE-FLEX_EFD20"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-WE-FLEX_EFD20"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32580,7 +32580,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_WE-FLEX_ER11_5"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-WE-FLEX_ER11_5"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33325,7 +33325,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_WE-FLEX_ER14.5_6"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-WE-FLEX_ER14.5_6"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34072,7 +34072,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_WE-MCA_7488105XX_7488940245"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-WE-MCA_7488105XX_7488940245"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34262,7 +34262,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_WE-MCA_7488910043"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-WE-MCA_7488910043"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34452,7 +34452,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_WE-MCA_7488910157"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-WE-MCA_7488910157"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34642,7 +34642,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_WE-MCA_7488910245"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-WE-MCA_7488910245"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34832,7 +34832,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_WE-MCA_7488930245"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-WE-MCA_7488930245"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35019,7 +35019,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_SOT25"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SOT25"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35241,7 +35241,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nixiemisc_SOT23-BEC"
+		(property "Footprint" "Nixie_judge2005_nixiemisc:nixiemisc-SOT23-BEC"
 			(at 0.762 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
