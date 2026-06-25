@@ -18,3 +18,7 @@ fp-info-cache
 *-autosave*
 ~*.lck
 \#auto_saved_files\#
+
+# KiCad 自動生成レポート（ERC/DRC・アノテーション/基板更新メッセージなど）
+*.rpt
+report.txt
