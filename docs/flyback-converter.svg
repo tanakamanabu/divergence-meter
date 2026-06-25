@@ -1,0 +1,148 @@
+<svg width="100%" viewBox="0 0 680 410" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>5V→180V フライバック昇圧回路（MC34063A・結合インダクタ1:10・外付けFET無し）</title>
+<desc>MC34063A フライバック構成（5V→180V）。結合インダクタ T1（1:10、Coilcraft LPR6235-253）の一次側を MC34063 内蔵スイッチ（SWC(1)/SWE(2)）で直接スイッチし、外付けFETは不要。スイッチOFF時の一次電圧は約23V（=5+180/10）で内蔵40Vスイッチの定格内に収まり、RCDスナバで漏れインダクタのスパイクをクランプする。二次側を D(UF4007) で整流し +180V。電流検出 Rsc は VCC(6)–Ipk(7) 間、発振はタイミングコンデンサ Ct を CT(3) に、出力電圧は FB(5) 分圧（基準1.25V）で約181V。8ピンすべて結線、開放ピンなし。</desc>
+<style>
+.w{fill:none;stroke:#1a1a1a;stroke-width:1.2}
+.b{fill:none;stroke:#2563eb;stroke-width:1.5}
+.r{fill:none;stroke:#dc2626;stroke-width:1.5}
+.c{fill:none;stroke:#777;stroke-width:1.1;stroke-dasharray:4 3}
+.body{fill:none;stroke:#1a1a1a;stroke-width:1.4}
+.dot{fill:#1a1a1a}
+.tri{fill:#1a1a1a}
+text{font-family:sans-serif;fill:#1a1a1a}
+.t{font-size:14px}.ts{font-size:12px}
+.box{fill:#f0f0f0;stroke:#888;stroke-width:1}
+.sn{fill:#fafafa;stroke:#aaa;stroke-width:1;stroke-dasharray:3 2}
+</style>
+
+<path class="b" d="M38,70 H88"/>
+<circle class="dot" cx="38" cy="70" r="3"/>
+<text class="ts" x="32" y="58">+5V in</text>
+
+<path class="b" d="M48,70 V182"/>
+<path class="b" d="M36,182 H60"/>
+<path class="b" d="M36,193 H60"/>
+<path class="w" d="M48,193 V372"/>
+<circle class="dot" cx="48" cy="70" r="2.5"/>
+<text class="ts" x="18" y="150">C_in 22µF</text>
+
+<circle class="dot" cx="58" cy="70" r="2.5"/>
+<path class="b" d="M58,70 V310"/>
+<path class="b" d="M58,285 H70"/>
+<path class="b" d="M58,310 H70"/>
+
+<rect class="body" x="88" y="62" width="34" height="16"/>
+<text class="ts" x="86" y="52">Rsc 0.3Ω</text>
+<path class="w" d="M122,70 H195"/>
+<circle class="dot" cx="135" cy="70" r="2.5"/>
+
+<path class="w" d="M195,70 V75"/>
+<path class="body" d="M195,75 a6.5,6.5 0 0 1 0,13 a6.5,6.5 0 0 1 0,13 a6.5,6.5 0 0 1 0,13 a6.5,6.5 0 0 1 0,13 a6.5,6.5 0 0 1 0,13"/>
+<line class="body" x1="209" y1="68" x2="209" y2="147"/>
+<line class="body" x1="213" y1="68" x2="213" y2="147"/>
+<path class="body" d="M224,75 a6.5,6.5 0 0 0 0,13 a6.5,6.5 0 0 0 0,13 a6.5,6.5 0 0 0 0,13 a6.5,6.5 0 0 0 0,13 a6.5,6.5 0 0 0 0,13"/>
+<circle class="dot" cx="188" cy="80" r="2"/>
+<circle class="dot" cx="231" cy="135" r="2"/>
+<text class="t" x="240" y="98">T1</text>
+<text class="ts" x="240" y="112">LPR6235-253</text>
+<text class="ts" x="240" y="125">1:10</text>
+
+<path class="w" d="M195,140 V255"/>
+
+<circle class="dot" cx="160" cy="70" r="2.5"/>
+<path class="w" d="M160,70 V170"/>
+<path class="w" d="M150,170 H182"/>
+<rect class="body" x="146" y="172" width="8" height="26"/>
+<path class="w" d="M150,170 V172"/>
+<path class="w" d="M150,198 V200"/>
+<text class="ts" x="134" y="189" text-anchor="end">Rsn</text>
+<path class="w" d="M182,170 V181"/>
+<path class="w" d="M175,181 H189"/>
+<path class="w" d="M175,185 H189"/>
+<path class="w" d="M182,185 V200"/>
+<text class="ts" x="194" y="189">Csn</text>
+<path class="w" d="M150,200 H182"/>
+<path class="w" d="M166,200 V206"/>
+<line class="w" x1="166" y1="206" x2="166" y2="218"/>
+<polygon class="tri" points="186,206 186,218 168,212"/>
+<path class="w" d="M186,212 H195"/>
+<circle class="dot" cx="195" cy="212" r="2.5"/>
+<text class="ts" x="172" y="232" text-anchor="middle">Dsn</text>
+<text class="ts" x="120" y="166">RCDスナバ</text>
+
+<path class="w" d="M224,75 V60"/>
+<path class="w" d="M224,60 H250"/>
+<polygon class="tri" points="250,52 250,68 272,60"/>
+<line class="w" x1="274" y1="50" x2="274" y2="70"/>
+<text class="ts" x="238" y="44">D UF4007</text>
+<path class="w" d="M224,140 V372"/>
+
+<path class="r" d="M274,60 H630"/>
+<circle class="dot" cx="630" cy="60" r="3"/>
+<text class="ts" x="582" y="48">+180V out</text>
+<circle class="dot" cx="370" cy="60" r="2.5"/>
+<circle class="dot" cx="460" cy="60" r="2.5"/>
+<circle class="dot" cx="560" cy="60" r="2.5"/>
+
+<path class="r" d="M370,60 V120"/>
+<path class="r" d="M358,120 H382"/>
+<path class="r" d="M358,131 H382"/>
+<path class="w" d="M370,131 V372"/>
+<text class="ts" x="384" y="118">+</text>
+<text class="ts" x="384" y="132">C_out</text>
+<text class="ts" x="384" y="146">10µF/250V</text>
+
+<path class="r" d="M460,60 V120"/>
+<rect class="body" x="452" y="120" width="16" height="90"/>
+<path class="w" d="M460,210 V372"/>
+<text class="ts" x="472" y="160">Rb 470k</text>
+<text class="ts" x="472" y="174">2W</text>
+
+<path class="r" d="M560,60 V90"/>
+<rect class="body" x="552" y="90" width="16" height="46"/>
+<path class="w" d="M560,136 V164"/>
+<circle class="dot" cx="560" cy="150" r="2.5"/>
+<rect class="body" x="552" y="164" width="16" height="46"/>
+<path class="w" d="M560,210 V372"/>
+<text class="ts" x="508" y="116">R1 1.8M</text>
+<text class="ts" x="508" y="194">R2 12.5k</text>
+<text class="ts" x="572" y="154">FB</text>
+
+<path class="c" d="M560,150 H600 V392 H218 V282 H210"/>
+
+<rect class="box" x="70" y="255" width="140" height="82" rx="6"/>
+<text class="t" x="158" y="303" text-anchor="middle">MC34063A</text>
+
+<text class="ts" x="195" y="269" text-anchor="middle">1 SWC</text>
+<text class="ts" x="135" y="269" text-anchor="middle">7 Ipk</text>
+<text class="ts" x="74" y="287">6 VCC</text>
+<text class="ts" x="74" y="312">8 DrvC</text>
+<text class="ts" x="206" y="282" text-anchor="end">5 FB</text>
+<text class="ts" x="95" y="331" text-anchor="middle">2 SWE</text>
+<text class="ts" x="135" y="331" text-anchor="middle">4 GND</text>
+<text class="ts" x="178" y="331" text-anchor="middle">3 CT</text>
+
+<path class="w" d="M135,70 V255"/>
+
+<path class="w" d="M95,337 V372"/>
+<path class="w" d="M135,337 V372"/>
+
+<path class="w" d="M178,337 V345"/>
+<path class="w" d="M168,345 H188"/>
+<path class="w" d="M168,351 H188"/>
+<path class="w" d="M178,351 V372"/>
+<text class="ts" x="193" y="356">Ct ~390pF</text>
+
+<path class="w" d="M38,372 H630"/>
+<text class="ts" x="32" y="389">GND</text>
+<circle class="dot" cx="48" cy="372" r="2.5"/>
+<circle class="dot" cx="95" cy="372" r="2.5"/>
+<circle class="dot" cx="135" cy="372" r="2.5"/>
+<circle class="dot" cx="178" cy="372" r="2.5"/>
+<circle class="dot" cx="224" cy="372" r="2.5"/>
+<circle class="dot" cx="370" cy="372" r="2.5"/>
+<circle class="dot" cx="460" cy="372" r="2.5"/>
+<circle class="dot" cx="560" cy="372" r="2.5"/>
+
+<text class="ts" x="18" y="405">青=+5V系 / 赤=+180V系 / 破線=FB / T1=結合インダクタ 1:10（フライバック）/ 内蔵スイッチ直結・外付けFET無し</text>
+</svg>

@@ -35,7 +35,7 @@ divergence-meter（ルート）
 電気の流れ＝下流が上流に依存するので、**上流（電源）から**入れると ERC が早く通る。
 
 1. **電源スケルトン** — `+5V` `+180V` `+3V3` `GND` の電源シンボルと `PWR_FLAG` を先に置く
-2. **昇圧回路**（power）— MC34063A, L, Q, D, Rsc, Ct, C_in, C_out, R1/R2, Rb
+2. **昇圧回路**（power）— MC34063A, T1（結合インダクタ 1:10）, RCDスナバ, D, Rsc, Ct, C_in, C_out, R1/R2, Rb
 3. **制御**（control）— XIAO、74HCT595×2（パスコン 0.1µF 各）、RTC、ボタン
 4. **カソードドライバ**（drivers）— 74141 ×2
 5. **アノードHV-SW ×4 / ドットドライバ ×4**（drivers）
