@@ -1,6 +1,6 @@
 <svg width="100%" viewBox="0 0 680 410" role="img" xmlns="http://www.w3.org/2000/svg">
 <title>5V→180V フライバック昇圧回路（MC34063A・結合インダクタ1:10・外付けFET無し）</title>
-<desc>MC34063A フライバック構成（5V→180V）。結合インダクタ T1（1:10、Coilcraft LPR6235-253）の一次側を MC34063 内蔵スイッチ（SWC(1)/SWE(2)）で直接スイッチし、外付けFETは不要。スイッチOFF時の一次電圧は約23V（=5+180/10）で内蔵40Vスイッチの定格内に収まり、RCDスナバで漏れインダクタのスパイクをクランプする。二次側を D(UF4007) で整流し +180V。電流検出 Rsc は VCC(6)–Ipk(7) 間、発振はタイミングコンデンサ Ct を CT(3) に、出力電圧は FB(5) 分圧（基準1.25V）で約181V。8ピンすべて結線、開放ピンなし。</desc>
+<desc>MC34063A フライバック構成（5V→180V）。結合インダクタ T1（1:10、Coilcraft LPR6235-253）の一次側を MC34063 内蔵スイッチ（SWC(1)/SWE(2)）で直接スイッチし、外付けFETは不要。スイッチOFF時の一次電圧は約23V（=5+180/10）で内蔵40Vスイッチの定格内に収まり、一次側のツェナークランプ（高速ダイオード Dsn ＋ ツェナー DZ 27〜30V）で漏れインダクタのスパイクをクランプする。二次側を D(UF4007) で整流し +180V。電流検出 Rsc は VCC(6)–Ipk(7) 間、発振はタイミングコンデンサ Ct を CT(3) に、出力電圧は FB(5) 分圧（基準1.25V）で約181V。8ピンすべて結線、開放ピンなし。</desc>
 <style>
 .w{fill:none;stroke:#1a1a1a;stroke-width:1.2}
 .b{fill:none;stroke:#2563eb;stroke-width:1.5}
@@ -50,25 +50,18 @@ text{font-family:sans-serif;fill:#1a1a1a}
 <path class="w" d="M195,140 V255"/>
 
 <circle class="dot" cx="160" cy="70" r="2.5"/>
-<path class="w" d="M160,70 V170"/>
-<path class="w" d="M150,170 H182"/>
-<rect class="body" x="146" y="172" width="8" height="26"/>
-<path class="w" d="M150,170 V172"/>
-<path class="w" d="M150,198 V200"/>
-<text class="ts" x="134" y="189" text-anchor="end">Rsn</text>
-<path class="w" d="M182,170 V181"/>
-<path class="w" d="M175,181 H189"/>
-<path class="w" d="M175,185 H189"/>
-<path class="w" d="M182,185 V200"/>
-<text class="ts" x="194" y="189">Csn</text>
-<path class="w" d="M150,200 H182"/>
-<path class="w" d="M166,200 V206"/>
-<line class="w" x1="166" y1="206" x2="166" y2="218"/>
-<polygon class="tri" points="186,206 186,218 168,212"/>
-<path class="w" d="M186,212 H195"/>
-<circle class="dot" cx="195" cy="212" r="2.5"/>
-<text class="ts" x="172" y="232" text-anchor="middle">Dsn</text>
-<text class="ts" x="120" y="166">RCDスナバ</text>
+<path class="w" d="M160,70 V168"/>
+<polygon class="tri" points="153,168 167,168 160,182"/>
+<path class="w" d="M151,178 L153,182 L167,182 L169,186"/>
+<path class="w" d="M160,182 V196"/>
+<text class="ts" x="173" y="181">DZ 27V</text>
+<line class="w" x1="153" y1="196" x2="167" y2="196"/>
+<polygon class="tri" points="153,210 167,210 160,196"/>
+<path class="w" d="M160,210 V220"/>
+<text class="ts" x="173" y="209">Dsn</text>
+<path class="w" d="M160,220 H195"/>
+<circle class="dot" cx="195" cy="220" r="2.5"/>
+<text class="ts" x="104" y="236">ツェナークランプ</text>
 
 <path class="w" d="M224,75 V60"/>
 <path class="w" d="M224,60 H250"/>
