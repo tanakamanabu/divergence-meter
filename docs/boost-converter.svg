@@ -1,6 +1,6 @@
 <svg width="100%" viewBox="0 0 680 410" role="img" xmlns="http://www.w3.org/2000/svg">
-<title>5Vから180Vへの昇圧コンバータ回路図（MAX1771 ハイサイド電流検出）</title>
-<desc>MAX1771 昇圧コントローラ。電流検出 Rsense は V+ と CS の間（ハイサイド）に入り、インダクタは CS 側に接続。MOSFET ソースは直接 GND。REF は 0.1µF でバイパス、SHDN は GND に接続して常時動作。出力は約181V。</desc>
+<title>5Vから180Vへの昇圧コンバータ回路図（MC34063A・外付けFET）</title>
+<desc>MC34063A 昇圧コントローラで外付け Nch FET をゲート駆動。電流検出 Rsc は VCC と Ipk の間（ハイサイド、入力電流経路）に入り、約0.3Vでピーク制限。発振周波数はタイミングコンデンサ Ct で設定。出力電圧は FB 分圧（R1/R2、基準1.25V）で約181V。MOSFET ソースは直接 GND。</desc>
 <style>
 .w{fill:none;stroke:#1a1a1a;stroke-width:1.2}
 .b{fill:none;stroke:#2563eb;stroke-width:1.5}
@@ -29,7 +29,7 @@ text{font-family:sans-serif;fill:#1a1a1a}
 <path class="b" d="M90,70 V238"/>
 
 <rect class="body" x="105" y="62" width="40" height="16"/>
-<text class="ts" x="104" y="52">Rsense 0.1Ω</text>
+<text class="ts" x="106" y="52">Rsc 0.3Ω</text>
 <path class="w" d="M145,70 H175"/>
 <circle class="dot" cx="160" cy="70" r="2.5"/>
 <path class="w" d="M160,70 V238"/>
@@ -83,20 +83,19 @@ text{font-family:sans-serif;fill:#1a1a1a}
 <rect class="body" x="592" y="175" width="16" height="50"/>
 <path class="w" d="M600,225 V372"/>
 <text class="ts" x="548" y="128">R1 1.8M</text>
-<text class="ts" x="548" y="205">R2 15k</text>
+<text class="ts" x="548" y="205">R2 12.5k</text>
 <text class="ts" x="612" y="166">FB</text>
 
 <path class="c" d="M600,162 H620 V392 H255 V270 H250"/>
 
 <rect class="box" x="70" y="238" width="180" height="82" rx="6"/>
-<text class="t" x="160" y="272" text-anchor="middle">MAX1771</text>
-<text class="ts" x="160" y="288" text-anchor="middle">昇圧コントローラ</text>
-<text class="ts" x="90" y="252" text-anchor="middle">V+</text>
-<text class="ts" x="160" y="252" text-anchor="middle">CS</text>
-<text class="ts" x="215" y="252" text-anchor="middle">EXT</text>
+<text class="t" x="160" y="270" text-anchor="middle">MC34063A</text>
+<text class="ts" x="160" y="286" text-anchor="middle">昇圧コントローラ</text>
+<text class="ts" x="90" y="252" text-anchor="middle">VCC</text>
+<text class="ts" x="160" y="252" text-anchor="middle">Ipk</text>
+<text class="ts" x="215" y="252" text-anchor="middle">DRV</text>
 <text class="ts" x="106" y="314" text-anchor="middle">GND</text>
-<text class="ts" x="152" y="314" text-anchor="middle">REF</text>
-<text class="ts" x="208" y="314" text-anchor="middle">SHDN</text>
+<text class="ts" x="152" y="314" text-anchor="middle">CT</text>
 <text class="ts" x="244" y="266" text-anchor="end">FB</text>
 
 <path class="w" d="M106,320 V372"/>
@@ -105,12 +104,10 @@ text{font-family:sans-serif;fill:#1a1a1a}
 <path class="w" d="M142,330 H162"/>
 <path class="w" d="M142,336 H162"/>
 <path class="w" d="M152,336 V372"/>
-<text class="ts" x="112" y="350">REF</text>
-<text class="ts" x="108" y="363">0.1µF</text>
+<text class="ts" x="120" y="352">Ct</text>
+<text class="ts" x="106" y="365">~390pF</text>
 
-<path class="w" d="M208,320 V372"/>
-<text class="ts" x="214" y="358">SHDN→GND</text>
-<text class="ts" x="214" y="370">(=常時ON)</text>
+<text class="ts" x="222" y="232">→ ゲート駆動</text>
 
 <path class="w" d="M40,372 H630"/>
 <text class="ts" x="34" y="389">GND</text>
@@ -119,5 +116,5 @@ text{font-family:sans-serif;fill:#1a1a1a}
 <circle class="dot" cx="520" cy="372" r="2.5"/>
 <circle class="dot" cx="600" cy="372" r="2.5"/>
 
-<text class="ts" x="40" y="405">青 = +5V 系  /  赤 = +180V 系  /  破線 = 制御信号  /  電流検出はハイサイド（V+〜CS, インダクタはCS側）</text>
+<text class="ts" x="40" y="405">青 = +5V 系  /  赤 = +180V 系  /  破線 = 制御信号  /  電流検出はハイサイド（VCC〜Ipk 間に Rsc）</text>
 </svg>
